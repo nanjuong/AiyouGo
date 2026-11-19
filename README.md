@@ -7,7 +7,7 @@ Lightweight compression for models and data (vendored from
 Depends only on the Python standard library + numpy. Ships its own IR layer and a
 CPU reference backend, so `demo.py` / `test.py` run out of the box.
 
-中文文档见 [README.md](README.md)。
+中文文档见 [README.zh-cn.md](README.zh-cn.md)。
 
 ## Installation
 
