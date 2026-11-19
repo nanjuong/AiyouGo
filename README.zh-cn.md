@@ -4,7 +4,7 @@
 
 仅依赖 Python 标准库 + numpy。自带 IR 层与 CPU 参考后端，`demo.py` / `test.py` 开箱即用。
 
-English documentation: [README.en.md](README.en.md)
+English documentation: [README.md](README.md)
 
 ## 安装
 
