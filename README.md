@@ -199,5 +199,5 @@ aiyougo
 
 ## Related
 
-- [README.md](README.md) — 中文文档
+- [README.zh-cn.md](README.zh-cn.md) — 中文文档
 - Upstream: AetherFlow (byte-level Mamba language model, trained on Intel Arc via OpenCL)
