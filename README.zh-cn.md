@@ -182,5 +182,5 @@ aiyougo
 
 ## 相关链接
 
-- [README.en.md](README.en.md) — 英文文档
+- [README.md](README.md) — 英文文档
 - 主项目：AetherFlow（字节级 Mamba 语言模型，Intel Arc OpenCL 训练）
