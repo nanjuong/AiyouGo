@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=77.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aiyougo-compression"
+version = "0.1.0"
+description = "模型与数据的轻量级压缩技术：低秩/qlora 参数压缩 + token 流无损压缩（delta+zigzag+LEB128）"
+readme = "README.md"
+requires-python = ">=3.8"
+license = "CC-BY-4.0"
+license-files = ["LICENSE"]
+authors = [{name = "aiyougo"}]
+keywords = ["model-compression", "quantization", "low-rank", "qlora", "token-compression", "delta-encoding", "zigzag", "varint", "machine-learning"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=6.0", "numpy>=1.20"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["aetherflow*"]
+
+[tool.setuptools.package-data]
+aetherflow = ["*.py"]
